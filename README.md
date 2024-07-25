@@ -3,4 +3,4 @@ I'll list all of the scripts below and also the blog post it belongs to.
 
 # How-To
 ## Ubuntu Server
-* [Secure SSH](https://stolpe.io/how-to/secure-ssh/) - Script [secure_ssh.sh]()
+* [Secure SSH](https://stolpe.io/how-to/secure-ssh/) - Script [secure_ssh.sh](https://github.com/rstolpe/script-stolpe.io/blob/main/how-to/ubuntu-server/secure_ssh.sh)
