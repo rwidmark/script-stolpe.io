@@ -1,26 +1,14 @@
 #!/bin/bash
 
-#############################
-######### stolpe.io #########
-#############################
-# This script have been made by Robin Stolpe 2024 to be published on https://stolpe.io for the post https://stolpe.io/how-to/secure-ssh/
+## Script made by Robin Stolpe 2024 to be used at https://stolpe.io in the post https://stolpe.io/how-to/secure-ssh/
+## sudo chmod +x secure_ssh.sh
+## sudo ./secure_ssh.sh
 
-##############################
-######## Instructions ########
-##############################
-# When you have downloaded this script you need to let it run by using the following command sudo chmod +x secure_ssh.sh
-# Then to run it: sudo ./secure_ssh.sh
-
-#############
-# Variables #
-#############
+# Variables
 SSHConfigFilePath="/etc/ssh/sshd_config"
 RestartService=("sshd" "ufw")
 
-#############
-# Functions #
-#############
-
+# Functions
 # Function to prompt for 'y' or 'n' and store the result in a variable
 ask_yes_no() {
     local prompt="$1"
@@ -187,10 +175,7 @@ else
     )
 fi
 
-#############
-### Script ##
-#############
-
+# Start script
 echo "Reconfiguring SSH settings..."
 echo "Backing up sshd_config..."
 sudo cp /etc/ssh/sshd_config /etc/ssh/sshd_config.bak
