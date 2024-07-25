@@ -1,2 +1,1 @@
-# script-stolpe.io
-Scripts that I’ll post on my webpage stolpe.io
+In this repo I'll add scripts that I have done for my webpage [stolpe.io](https://stolpe.io).
