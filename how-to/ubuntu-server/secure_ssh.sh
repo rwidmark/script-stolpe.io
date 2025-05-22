@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Script made by Robin Stolpe 2024 to be used at https://stolpe.io in the post https://stolpe.io/how-to/secure-ssh/
+## Script made by Robin Widmark 2025 to be used at https://widmark.dev in the post https://widmark.dev/how-to/secure-ssh/
 ## sudo chmod +x secure_ssh.sh
 ## sudo ./secure_ssh.sh
 
